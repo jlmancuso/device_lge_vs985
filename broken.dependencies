@@ -1,6 +1,6 @@
 [
   {
-    "repository": "BrokenRom/device_lge_g3-common",
+    "repository": "BrokenROM/device_lge_g3-common",
     "target_path": "device/lge/g3-common"
     "branch": "lp5.1"
   },
@@ -10,7 +10,7 @@
     "branch": "lp5.1"
   },
   {
-    "repository": "BrokenRom/device_qcom_common",
+    "repository": "BrokenROM/device_qcom_common",
     "target_path": "device/qcom/common"
     "branch": "lp5.1"
   },
