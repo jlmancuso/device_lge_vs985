@@ -13,12 +13,6 @@
   },
   {
     "remote": "github",
-    "repository": "BrokenROM/device_qcom_common",
-    "target_path": "device/qcom/common",
-    "branch": "lp5.1"
-  },
-  {
-    "remote": "github",
     "repository": "TheMuppets/proprietary_vendor_lge",
     "target_path": "vendor/lge",
     "branch": "cm-12.1"
