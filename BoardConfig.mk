@@ -29,6 +29,8 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/vs985/bluetooth
 
 # Kernel
 TARGET_KERNEL_CONFIG := ninja_defconfig
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-linux-gnueabi-5.2/bin
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 TARGET_REQUIRES_BUMP := true
 
 # Partitions
