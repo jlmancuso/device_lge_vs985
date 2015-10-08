@@ -7,7 +7,7 @@
   },
   {
     "remote": "github",
-    "repository": "gchild320/kernel_lge_g3",
+    "repository": "roguesyko/the_reaper_g3",
     "target_path": "kernel/lge/g3",
     "branch": "lp5.1"
   },
@@ -16,5 +16,11 @@
     "repository": "TheMuppets/proprietary_vendor_lge",
     "target_path": "vendor/lge",
     "branch": "cm-12.1"
+  },
+    {
+      "remote": "github",
+    "repository": "sultanxda/android_packages_apps_SnapdragonCamera",
+    "target_path": "packages/apps/SnapdragonCamera",
+    "branch": "cm-12.1-caf"
   }
 ]

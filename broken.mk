@@ -8,6 +8,10 @@ $(call inherit-product, vendor/broken/config/nfc_enhanced.mk)
 
 PRODUCT_NAME := broken_vs985
 
+# Camera
+PRODUCT_PACKAGES += \
+    SnapdragonCamera
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="g3" \
     PRODUCT_NAME="g3_vzw_us" \
