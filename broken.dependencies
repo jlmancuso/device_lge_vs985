@@ -16,12 +16,6 @@
     "repository": "roguesyko/proprietary_vendor_lge",
     "target_path": "vendor/lge",
     "branch":      "m6.0"
- },
-  {
-    "remote": "github",
-    "repository": "CyanogenMod/android_hardware_sony_thermanager",
-    "target_path": "hardware/sony/thermanager",
-    "branch":      "cm-13.0"
   },
   {
     "remote": "github",
