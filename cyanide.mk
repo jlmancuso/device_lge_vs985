@@ -1,12 +1,12 @@
 $(call inherit-product, device/lge/vs985/full_vs985.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/broken/config/common_full_phone.mk)
+$(call inherit-product, vendor/cyanide/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/broken/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/cyanide/config/nfc_enhanced.mk)
 
-PRODUCT_NAME := broken_vs985
+PRODUCT_NAME := cyanide_vs985
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="g3" \
@@ -15,7 +15,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="g3_vzw-user 6.0 MRA58K 160141503d43c release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-verizon
-
-# Broken Device Maintainers
-    PRODUCT_BUILD_PROP_OVERRIDES += \
- 	DEVICE_MAINTAINERS="Joe (roguesyko) Repasy"  
